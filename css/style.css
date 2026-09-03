@@ -1,23 +1,23 @@
 /* ========== All common css start=========== */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul,
 ol {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a,
 a:hover {
-    text-decoration: none;
-    display: inline-block;
+  text-decoration: none;
+  display: inline-block;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 h1,
@@ -27,152 +27,203 @@ h4,
 h5,
 h6,
 p {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 /* ========== All common CSS section END=========== */
 
 /* font-family: "Lato", sans-serif; */
 
-
 /* ========== header CSS section start=========== */
 .navbar-nav .nav-item .nav-link {
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #4D4D4D;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4d4d4d;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #36B864;
-    text-shadow: 0.5px 0 0 #36B864;
+  color: #36b864;
+  text-shadow: 0.5px 0 0 #36b864;
 }
 
 .navbar-nav,
 ul li {
-    margin-left: 45px;
+  margin-left: 45px;
 }
 
 .headerBtn {
-    margin-left: 142px;
+  margin-left: 142px;
 }
 
 .primaryBtn {
-    border: 2px solid #06C279;
-    color: #1B1B1B;
-    padding: 14px 25px;
-    border-radius: 6px;
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    transition: .4s;
+  border: 2px solid #06c279;
+  color: #1b1b1b;
+  padding: 14px 25px;
+  border-radius: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
 }
 
 .primaryBtn:hover {
-    background: #06C279;
-    color: #FFFFFF;
+  background: #06c279;
+  color: #ffffff;
 }
-.primaryBtn:hover.primaryBtnDesign i{
-    color: #FFFFFF ;
-   
-}   
-
-
+.primaryBtn:hover.primaryBtnDesign i {
+  color: #ffffff;
+}
 
 /* ========== header CSS section END=========== */
 #hero {
-    background: url("../images/bacground.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: url("../images/bacground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bannerContent {
-    padding: 116px 0;
+  padding: 116px 0;
 }
 
 .bannerContent h1 {
-    font-size: 60px;
-    font-weight: 300;
-    color: #111D15;
-    font-family: "Lato", sans-serif;
-    margin-bottom: 24px;
-    line-height: 115%;
-    width: 610px;
+  font-size: 60px;
+  font-weight: 300;
+  color: #111d15;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 24px;
+  line-height: 115%;
+  width: 610px;
 }
-.bannerContent span{
-    font-weight: 600;
+.bannerContent span {
+  font-weight: 600;
 }
 
 .bannerContent p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #7B7B7B;
-    font-family: "Lato", sans-serif;
-    margin-bottom: 40px;
-    line-height: 30px;
-    width: 543px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 40px;
+  line-height: 30px;
+  width: 543px;
 }
 .bannerBtn a {
-    margin-right: 20px;
+  margin-right: 20px;
 }
-.bannerBtn a i{
-    color: #06C279;
-    margin-right: 12px;
-    transition: .4s;
+.bannerBtn a i {
+  color: #06c279;
+  margin-right: 12px;
+  transition: 0.4s;
 }
-.bannerBtn:hover{
-    color: #FFFFFF;
+.bannerBtn:hover {
+  color: #ffffff;
 }
 
 /* ========== hero CSS section END=========== */
 
 /* ========== about CSS section start=========== */
-#about{
-    padding: 85px 0 100px;
+#about {
+  padding: 85px 0 100px;
 }
-.aboutContent{
-    margin-top: 38px;
+.aboutContent {
+  margin-top: 38px;
 }
-.aboutContent h2{
-    font-size: 45px;
-    font-weight: 5800;
-    color: #111D15;
-    font-family: "Lato", sans-serif;
-    margin-bottom: 29px;
-    line-height: 54px;
-    width: 445px;
+.aboutContent h2 {
+  font-size: 45px;
+  font-weight: 5800;
+  color: #111d15;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 29px;
+  line-height: 54px;
+  width: 445px;
 }
-.aboutContent p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #7B7B7B;
-    font-family: "Lato", sans-serif;
-    margin-bottom: 45px;
-    line-height: 26px;
-    width: 550px;
+.aboutContent p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 45px;
+  line-height: 26px;
+  width: 550px;
 }
-.aboutBtn a{
-    border: 2px transparent;
-    color: #1B1B1B;
-    background: #DAF6EB;
-    color: #06C279;
-    padding: 14px 25px;
-    border-radius: 6px;
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    transition: .4s;
+.aboutBtn a {
+  border: 2px transparent;
+  color: #1b1b1b;
+  background: #daf6eb;
+  color: #06c279;
+  padding: 14px 25px;
+  border-radius: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
 }
 
 .aboutBtn a:hover {
-    background: #06C279;
-    color: #FFFFFF;
+  background: #06c279;
+  color: #ffffff;
 }
 /* ========== about CSS section end=========== */
 
-/* ========== about CSS section start=========== */
-/* ========== about CSS section end=========== */
+/* ========== portfolio CSS section start=========== */
+#portfolio {
+  background: url("../images/bacground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0;
+  border-radius: 50px 0 50px 0;
+}
+.webAndseo {
+  margin-top: 203px;
+}
+.common {
+  height: 322px;
+  width: 312px;
+  background-color: #ffffff;
+  padding: 42px 40px 60px 30px;
+  border-radius: 10px;
+  transition: all linear 0.4s;
+}
+.common:hover {
+  background-color: #06c279;
+}
+.common:hover h5 {
+  color: white;
+}
+.common:hover P {
+  color: white;
+}
+.common,
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1b1b1b;
+  margin-top: 18px;
+  font-family: "Lato", sans-serif;
+  transition: all linear 0.4s;
+}
+.common,
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-family: "Lato", sans-serif;
+  margin-top: 18px;
+  line-height: 26px;
+  width: 265px;
+  transition: all linear 0.4s;
+}
+.common {
+  margin-top: 40px;
+}
+.UIUX-Analysis,
+img {
+  color: #06c279;
+}
+/* ========== portfolio CSS section end=========== */
 
 /* ========== about CSS section start=========== */
 /* ========== about CSS section end=========== */
