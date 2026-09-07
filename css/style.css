@@ -48,7 +48,7 @@ p {
 }
 
 .navbar-nav,
-ul li {
+.nav-item {
   margin-left: 45px;
 }
 
@@ -132,7 +132,7 @@ ul li {
 }
 .aboutContent h2 {
   font-size: 45px;
-  font-weight: 5800;
+  font-weight: 500;
   color: #111d15;
   font-family: "Lato", sans-serif;
   margin-bottom: 29px;
@@ -188,6 +188,17 @@ ul li {
   transition: all linear 0.4s;
 }
 .common:hover {
+  box-shadow: 0, 0, 20, 2, rgba(0, 0, 0, 5);
+}
+.common i {
+  font-size: 60px;
+  color: #06c279;
+  transition: all linear 0.4s;
+}
+.common:hover i {
+  color: white;
+}
+.common:hover {
   background-color: #06c279;
 }
 .common:hover h5 {
@@ -219,14 +230,57 @@ p {
 .common {
   margin-top: 40px;
 }
-.UIUX-Analysis,
-img {
-  color: #06c279;
+.portfolioContent {
+  margin-top: 335px;
+}
+.portfolioContent h2 {
+  font-size: 45px;
+  font-weight: 5800;
+  color: #111d15;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 29px;
+  line-height: 54px;
+  width: 445px;
+}
+.portfolioContent p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7b7b;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 45px;
+  line-height: 26px;
+  width: 550px;
 }
 /* ========== portfolio CSS section end=========== */
 
-/* ========== about CSS section start=========== */
-/* ========== about CSS section end=========== */
+/* ========== project CSS section start=========== */
+#project {
+  padding: 100px;
+}
+.project-Heading {
+  text-align: center;
+  align-items: center;
+}
+.project-Heading h2 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #1b1b1b;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 33px;
+  line-height: 54px;
+}
+.project-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 73px;
+}
+.project-menu ul li a {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7b7b;
+}
+/* ========== project CSS section end=========== */
 
 /* ========== about CSS section start=========== */
 /* ========== about CSS section end=========== */
