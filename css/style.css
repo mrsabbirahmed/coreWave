@@ -309,7 +309,13 @@ p {
 }
 
 .projectContent {
+  border-radius: 15px;
   margin-top: 53px;
+  transition: all linear 0.4s;
+}
+.projectContent:hover {
+ transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
 .projectContent img {
@@ -393,7 +399,7 @@ p {
 }
 
 .commonTwo:hover {
-  box-shadow: 0, 0, 20, 2, rgba(0, 0, 0, 0.9);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
 }
 
 .commonTwo i {
@@ -453,32 +459,61 @@ p {
   color: #1B1B1B;
   font-weight: 700;
   font-family: "Lato", sans-serif;
-  text-align: center;
   margin-bottom: 48px;
+  text-align: center;
 }
-.blog-team{
+
+.blog-team {
   padding: 45px 65px;
   text-align: center;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+  transition: all linear 0.4s;
 }
-.blog-team h5{
-   font-size: 24px;
+
+.blog-team:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.blog-team img {
+  margin-bottom: 15px;
+}
+
+.blog-team h5 {
+  font-size: 24px;
   color: #1B1B1B;
   font-weight: 600;
   font-family: "Lato", sans-serif;
-  text-align: center;
-  margin-top: 15px; 
+  margin-top: 15px;
+  margin: 0 auto;
 }
-.teamStar span i{
+
+.teamStar span i {
   color: #FAB93C;
 }
-.blog-team p{
-   font-size: 16px;
+
+.blog-team p {
+  font-size: 16px;
   color: #7B7B7B;
   font-weight: 400;
   font-family: "Lato", sans-serif;
-  text-align: center;
   width: 310px;
-  margin-top: 20px; 
+  margin-top: 20px;
+}
+
+.teamName h5 {
+  font-size: 18px;
+  color: #1B1B1B;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+}
+
+.teamName h6 {
+  font-size: 16px;
+  color: #7B7B7B;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
 }
 
 /* ========== about CSS section end=========== */
